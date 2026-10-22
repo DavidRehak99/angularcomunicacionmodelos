@@ -1,0 +1,14 @@
+<h1>listas-productos-component works!</h1>
+<p>{{producto.nombre}}</p>
+<p>Precio: {{producto.precio}}</p>
+<img src ="{{producto.imagen}}"
+style="width:150px; height:150px;"/>
+
+@for (prod of listaproductos; track prod){
+
+    <p>{{producto.nombre}}</p>
+<p>Precio: {{producto.precio}}</p>
+<img src ="{{prod.imagen}}"
+style="width:150px; height:150px;"/>
+
+}
