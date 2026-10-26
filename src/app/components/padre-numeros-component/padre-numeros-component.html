@@ -1,0 +1,13 @@
+<p>padre-numeros-component works!</p>
+<h2 style="color:red">La suma ws {{sumatorio}}</h2>
+<button (click)="generarNUmero()">Generar número</button> 
+
+@for (num of arrayNumero; track num){ 
+
+    <app-hijos-numeros-component [numero]="num" 
+
+    (sumarNumerosParent)="sumarNumerosParent($event)"> 
+
+    </app-hijos-numeros-component> 
+
+}

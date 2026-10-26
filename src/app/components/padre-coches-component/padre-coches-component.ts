@@ -8,6 +8,8 @@ import Coche from '../../models/coche';
   templateUrl: './padre-coches-component.html',
 })
 export class PadreCochesComponent {
+
+  
   
 public arrayCoches: Array<Coche>;
 
